@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <test thread-count="5" name="Valid Login Test">
+    <classes>
+      <class name="com.instagram.test.Test_TestCase_Valid_Login"/>
+    </classes>
+  </test> 
+  <test thread-count="5" name="Invalid Login Test">
+    <classes>
+      <class name="com.instagram.test.Test_TestCase_Invalid_Login"/>
+    </classes>
+  </test> 
+  <test thread-count="5" name="Forgot Password Link Test">
+    <classes>
+      <class name="com.instagram.test.Test_TestCase_ForgotPasswordLink"/>
+    </classes>
+  </test> 
+  <test thread-count="5" name="Login Using Facebook Test">
+    <classes>
+      <class name="com.instagram.test.Test_TestCase_LoginUsingFacebook"/>
+    </classes>
+  </test> <test thread-count="5" name="SignUp Link in Login Page Test">
+    <classes>
+      <class name="com.instagram.test.Test_TestCase_VerifySignUpInLoginPage"/>
+    </classes>
+  </test> 
+</suite> 

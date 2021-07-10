@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Valid Login Test(failed)">
+    <classes>
+      <class name="com.instagram.test.Test_TestCase_Valid_Login">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+          <include name="test_Valid_Login"/>
+          <include name="setPro"/>
+        </methods>
+      </class> <!-- com.instagram.test.Test_TestCase_Valid_Login -->
+    </classes>
+  </test> <!-- Valid Login Test(failed) -->
+  <test thread-count="5" name="Invalid Login Test(failed)">
+    <classes>
+      <class name="com.instagram.test.Test_TestCase_Invalid_Login">
+        <methods>
+          <include name="test_Invalid_Login"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+          <include name="setPro"/>
+        </methods>
+      </class> <!-- com.instagram.test.Test_TestCase_Invalid_Login -->
+    </classes>
+  </test> <!-- Invalid Login Test(failed) -->
+  <test thread-count="5" name="Forgot Password Link Test(failed)">
+    <classes>
+      <class name="com.instagram.test.Test_TestCase_ForgotPasswordLink">
+        <methods>
+          <include name="openApp"/>
+          <include name="testForgotPasswordLink"/>
+          <include name="closeApp"/>
+          <include name="setPro"/>
+        </methods>
+      </class> <!-- com.instagram.test.Test_TestCase_ForgotPasswordLink -->
+    </classes>
+  </test> <!-- Forgot Password Link Test(failed) -->
+  <test thread-count="5" name="Login Using Facebook Test(failed)">
+    <classes>
+      <class name="com.instagram.test.Test_TestCase_LoginUsingFacebook">
+        <methods>
+          <include name="testLoginUsingFaceBook"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+          <include name="setPro"/>
+        </methods>
+      </class> <!-- com.instagram.test.Test_TestCase_LoginUsingFacebook -->
+    </classes>
+  </test> <!-- Login Using Facebook Test(failed) -->
+  <test thread-count="5" name="SignUp Link in Login Page Test(failed)">
+    <classes>
+      <class name="com.instagram.test.Test_TestCase_VerifySignUpInLoginPage">
+        <methods>
+          <include name="openApp"/>
+          <include name="testForgotPasswordLink"/>
+          <include name="closeApp"/>
+          <include name="setPro"/>
+        </methods>
+      </class> <!-- com.instagram.test.Test_TestCase_VerifySignUpInLoginPage -->
+    </classes>
+  </test> <!-- SignUp Link in Login Page Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
